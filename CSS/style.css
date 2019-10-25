@@ -1,0 +1,347 @@
+html{
+    width: 1260px;
+    height: 940px;
+    background-color: #edf2c5;;
+    margin:auto;
+}
+body{
+    width: 1260px;
+    height:880px;
+    background-color:#edf2c5;
+}
+header{
+    width: 940px;
+    height: 103px;
+    
+}
+footer{
+    width: 1260px;
+    height: 60px;
+    background-color:#778a50;
+}
+.container{
+    position:relative; 
+    width: 940px;
+    height: 880px;
+    margin-left:160px;
+}
+.vegetable{
+    position:absolute;
+  width: 271px;
+  height: 62px;
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: normal;
+  text-align: left;
+  line-height: 62px;
+  color: #778a50;
+  margin-top:42px;
+  margin-top:36px;
+}
+.line{
+    width:1;
+    height:25;
+    border:1px solid #778a50;
+    margin-left:10px;
+}
+.fb{
+    width: 25px;
+  height: 25px;
+  object-fit: contain;
+}
+.ig{
+    width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-left:10px;
+
+}
+.login{
+  height: 14px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  margin-left:10px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  border:1px solid #778a50;
+  border-radius:3px;
+  padding:5px 7px;
+  line-height: 13px;
+  align-items: center;
+}
+.join{
+  width: 35px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  margin-left:10px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+  border:1px solid #778a50;
+  border-radius:3px;
+  padding:5px 7px;
+}
+.list{
+    
+    display: flex;
+    list-style:none;
+}
+.list2{
+    position:absolute;
+    display: flex;
+    list-style:none;
+    margin-top:60px;
+    margin-left:700px;
+}
+.big{
+    width: 940px;
+  height: 448px;
+  margin-top:64px;
+}
+.nav{
+  list-style: none;
+    position:absolute;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin:0;
+    margin-top:103px;
+    width: 940px;
+  height: 44px;
+  border-radius: 3px;
+  background-color: #778a50;
+  padding:0;
+  
+}
+.home{
+  display: flex;
+  float: left;
+    width: 51px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 23px;
+    letter-spacing: normal;
+    text-align: left;
+    color:#edf2c5;
+    padding:10px 30px 11px 30px ;
+  
+}
+.us{
+  float: left;
+    width: 80px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 23px;
+  letter-spacing: normal;
+  text-align: left;
+  color:#edf2c5;
+  
+  padding:10px 30px 11px 30px ;
+}
+.ve{
+  float: left;
+    width: 98px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 23px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  
+  padding:10px 30px 11px 30px ;
+}
+.online{
+  float: left;
+    width: 56px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 23px;
+  letter-spacing: normal;
+  text-align: left;
+  color:#edf2c5;
+  
+  padding:10px 30px 11px 30px ;
+}
+.contact{
+  float: left;
+    width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 23px;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+  
+  padding:10px 30px 11px 30px ;
+}
+.veg{
+    float:left;
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 23px;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-top:10px;
+    padding-left: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+
+}
+.con{
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 23px;
+    letter-spacing: normal;
+    text-align: left;
+    color:#edf2c5;;
+    padding-top:10px;
+    padding-left: 30px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    
+}
+.list3{
+  display:flex;
+  flex-direction: row;
+}
+.box1{
+    margin-top:26px;
+    width: 444px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #778a50;
+    
+}
+.box2{
+  margin-top:26px;
+  margin-left:52px;
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+ 
+}
+.list4{
+  display:flex;
+  flex-direction: row;
+}
+.Drpepper{
+  width: 140px;
+  height: 140px;
+  
+  margin-top:15px;
+}
+
+.cacaroto{
+    width: 140px;
+    height: 140px;
+    margin-left:12px;
+    margin-top: 15px;
+}
+
+.fubuki{
+    width: 140px;
+    height: 140px;
+    margin-left:12px;
+    margin-top:15px;
+}
+.box3{
+  margin-top:15px;
+  margin-left:52px;
+  border-radius: 3px;
+  display: inline-block;
+  width: 444px;
+  height: 140px;
+  background-color: #f7fbda;
+}
+.article{
+  
+  width: 414px;
+  height: 44px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  margin-left:15px;
+}
+.line2{
+    width: 414px;
+  height: 1px;
+  background-color: #7d7d7d;
+  margin-left:15px;
+}
+.daway{
+    width: 197px;
+  height: 35px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.75;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  margin-left:15px;
+}
+.givememoney{
+    width: 301px;
+  height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 3;
+  letter-spacing: normal;
+  text-align: left;
+  color:#edf2c5;
+  padding-left:480px;
+  padding-top:23px;
+}
